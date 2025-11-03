@@ -7,7 +7,7 @@ class SharedBuffer {
         data = value;
         empty = false;
         System.out.println("Produced: " + value);
-        notify();
+        notify(); 
     }
 
     public synchronized int consume() {
